@@ -1,0 +1,6 @@
+Dimensions
+
+width: 1110 px
+height:
+        1° row: < 240px (apox 236px)
+        2° row: 266px
