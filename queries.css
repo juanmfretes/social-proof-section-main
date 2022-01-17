@@ -1,0 +1,134 @@
+/* Medium size: 1126px / 16 = 70.375 ~ 70 em */
+/* Small size: 600 / 16 = 37.5 em */
+
+/* MEDIUM SIZE */
+@media (max-width: 70em) {
+  /*
+  1. Centrar text-box 
+  2. Centrar star-rating-box. Reducir ancho
+  3. Cambiar testimonial-box a una sola columna. Reducir ancho
+  4. Cambiar imagenes de fondo
+  */
+
+  .main-container {
+    max-width: 60rem;
+    margin-top: 8.1rem;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  /* --------- INTRO TEXT SECTION ------------ */
+  .text-box {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .text-title {
+    font-size: 3.6rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .text-description {
+    padding: 0 3.1rem;
+    margin-bottom: 4rem;
+  }
+
+  /* --------- STAR RATING SECTION ------------ */
+  .star-rating-box {
+    grid-column: 1;
+    align-items: center;
+  }
+
+  .reviews-container {
+    width: 44.5rem;
+    gap: 5.2rem;
+  }
+
+  .star-rating-box .reviews-container:first-child {
+    margin-left: 0;
+  }
+
+  .star-rating-box .reviews-container:nth-child(2) {
+    margin-left: 0;
+  }
+
+  .star-rating-box .reviews-container:last-child {
+    margin-left: 0;
+  }
+
+  /* --------- TESTIMONIAL SECTION ------------ */
+  .testimonial-box {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: 1.54rem;
+  }
+
+  .testimonial {
+    /* background-color: hsl(300, 43%, 22%); */
+    max-width: 45rem;
+    padding-bottom: 3.1rem;
+    height: auto;
+  }
+
+  .irene {
+    margin-top: 0;
+  }
+
+  .anne {
+    margin-top: 0;
+  }
+}
+
+/* SMALL SIZE */
+@media (max-width: 37.5em) {
+  /* .body {
+    background-image: url("images/bg-pattern-top-mobile.svg"),
+      url("images/bg-pattern-bottom-mobile.svg");
+
+    background-position: top -1.7rem left -3.6rem, bottom -20.7rem right -3.6rem;
+  } */
+
+  .main-container {
+    max-width: 33rem;
+  }
+
+  .grid-container {
+    margin-bottom: 4.9rem;
+  }
+
+  /* --------- INTRO TEXT SECTION ------------ */
+  .text-title {
+    font-size: 3.2rem;
+    margin-bottom: 2.3rem;
+    letter-spacing: -1.15px;
+  }
+
+  .text-description {
+    padding: 0;
+    margin-bottom: 2.5rem;
+  }
+
+  /* --------- STAR RATING SECTION ------------ */
+
+  .reviews-container {
+    width: auto;
+    flex-direction: column;
+    gap: 1.7rem;
+    padding: 1.6rem;
+    width: 32.7rem;
+  }
+
+  .stars-box {
+    /* display: flex; */
+    margin-left: 0;
+    /* gap: 0.8rem; */
+  }
+
+  /* --------- TESTIMONIAL SECTION ------------ */
+  .testimonial {
+    max-width: 32.7rem;
+    /* padding: 4rem 3.2rem; */
+  }
+}
