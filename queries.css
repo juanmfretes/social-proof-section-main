@@ -3,13 +3,6 @@
 
 /* MEDIUM SIZE */
 @media (max-width: 70em) {
-  /*
-  1. Centrar text-box 
-  2. Centrar star-rating-box. Reducir ancho
-  3. Cambiar testimonial-box a una sola columna. Reducir ancho
-  4. Cambiar imagenes de fondo
-  */
-
   .main-container {
     max-width: 60rem;
     margin-top: 8.1rem;
@@ -66,7 +59,6 @@
   }
 
   .testimonial {
-    /* background-color: hsl(300, 43%, 22%); */
     max-width: 45rem;
     padding-bottom: 3.1rem;
     height: auto;
@@ -121,14 +113,11 @@
   }
 
   .stars-box {
-    /* display: flex; */
     margin-left: 0;
-    /* gap: 0.8rem; */
   }
 
   /* --------- TESTIMONIAL SECTION ------------ */
   .testimonial {
     max-width: 32.7rem;
-    /* padding: 4rem 3.2rem; */
   }
 }
