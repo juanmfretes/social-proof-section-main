@@ -25,13 +25,13 @@ body {
   background-image: url("images/bg-pattern-top-desktop.svg"),
     url("images/bg-pattern-bottom-desktop.svg");
   background-repeat: no-repeat;
-  background-position: top -1.7rem left -3.6rem, bottom -1.7rem right -3.6rem;
+  background-position: top left -3.7rem, bottom -3.3rem right -3.7rem;
 }
 
 .main-container {
   max-width: 111rem;
   margin: 0 auto;
-  margin-top: 11.54rem;
+  margin-top: 13.1rem;
 }
 
 .grid-container {
