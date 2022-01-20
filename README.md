@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [FrontEnd Mentor: Solution](https://your-solution-url.com)
+- Solution URL: [FrontEnd Mentor: Solution](https://www.frontendmentor.io/solutions/responsive-social-proof-section-using-flexbox-and-css-grid-t2HoNjJ_n)
 - Live Site URL: [Social proof section](https://juanmfretes.github.io/social-proof-section-main/)
 
 ## My process
