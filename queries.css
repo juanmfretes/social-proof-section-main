@@ -75,12 +75,12 @@
 
 /* SMALL SIZE */
 @media (max-width: 37.5em) {
-  /* .body {
+  body {
     background-image: url("images/bg-pattern-top-mobile.svg"),
       url("images/bg-pattern-bottom-mobile.svg");
 
-    background-position: top -1.7rem left -3.6rem, bottom -20.7rem right -3.6rem;
-  } */
+    background-position: top 0 left 0, bottom -5.8rem right 0;
+  }
 
   .main-container {
     max-width: 33rem;
